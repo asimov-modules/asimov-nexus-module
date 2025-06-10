@@ -1,0 +1,14 @@
+# See: https://github.com/asimov-modules/asimov-nexus-module/blob/master/.asimov/module.yaml
+---
+name: nexus
+label: ASIMOV.Nexus
+summary: Knowledge import powered by the ASIMOV.Nexus intelligence platform.
+links:
+  - https://github.com/asimov-modules/asimov-nexus-module
+  - https://crates.io/crates/asimov-nexus-module
+  - https://pypi.org/project/asimov-nexus-module
+  - https://rubygems.org/gems/asimov-nexus-module
+  - https://npmjs.com/package/asimov-nexus-module
+
+flows:
+  - asimov-nexus-importer
