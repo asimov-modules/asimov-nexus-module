@@ -10,5 +10,17 @@ links:
   - https://rubygems.org/gems/asimov-nexus-module
   - https://npmjs.com/package/asimov-nexus-module
 
-flows:
-  - asimov-nexus-importer
+provides:
+  flows:
+    - asimov-nexus-importer
+
+handles:
+  url_patterns:
+    - https://*.linkedin.com/in/:account
+    - https://duckduckgo.com/?q=:query
+    - https://bing.com/search?q=:query
+    - https://google.com/search?q=:query
+    - https://linkedin.com/in/:account
+    - https://x.com/:account
+    - https://x.com/:account/followers
+    - https://x.com/:account/following
