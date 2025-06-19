@@ -1,4 +1,4 @@
-# See: https://github.com/asimov-modules/asimov-nexus-module/blob/master/.asimov/module.yaml
+# See: https://asimov-specs.github.io/module-manifest/
 ---
 name: nexus
 label: ASIMOV.Nexus
@@ -11,7 +11,7 @@ links:
   - https://npmjs.com/package/asimov-nexus-module
 
 provides:
-  flows:
+  programs:
     - asimov-nexus-importer
 
 handles:
